@@ -1,0 +1,270 @@
+@import url('tabelas.css');
+
+
+
+/* Arquivo CSS geral com estilos dos elementos de todas páginas */
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+  font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+  background-color: white;
+}
+
+h2, h3,li{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3f3d3e;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #d32082;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3f3d3e;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #66F;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+
+ul li {
+  font-size: .8em; /* equivalente a 10px */
+  width: 80%;
+}
+
+
+p {
+  font-size: 1.6rem; /* equivalente a 16 px */
+}
+
+nav h3 {
+  font-size: 2rem; /* equivalente a 20 px */
+  color: #d32082;
+ }
+
+.navegacao {
+	background-color: #ffffff;
+}
+
+form div {
+  background: #fff;
+  border-bottom: 1px solid #a31f67;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+
+label {
+  /*margin-bottom: 1rem;*/
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #66F;
+  /*color: #a31f67;*/
+}
+
+
+input {
+  padding: 1rem;
+}
+
+
+[type="text"], [type="email"], textarea {
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-color: #a31f67;
+  width: 100%;
+}
+
+
+
+/* Style the header */
+header {
+  background-color: #a31f67;
+  padding: 3rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+header h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  padding: 2rem;
+}
+
+nav p {
+  margin-top: 10rem;
+  color:#d32082;
+  font-family: Arial, Helvetica, serif;
+  font-size: 2rem;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+  color: #d32082;
+  border-bottom: 1px solid #a31f67;
+}
+
+nav img {
+  margin-top: 2rem;
+  width: 400px;
+}
+
+
+article {
+  float: left;
+  padding: 2rem;
+  width: 70%;
+}
+
+article h2 {
+  font-size: 2rem;
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: #ccc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #a31f67;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  font-family: sans-serif;
+  color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*
+     NOMES EM PORTUGUES
+  top / superior (cima)
+  bottom / inferior (baixo)
+  left (esquerda)
+  right (direita)
+*/
+
+/*
+     TEXTO E TIPOGRAFIA
+html {
+  font-family: Roboto;
+}
+
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-family: 'Pacifico', cursive; 
+}
+
+p {
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+li {
+  letter-spacing: .1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h3 {
+  font: italic bold 1.2rem/2 sans-serif bold;
+}
+
+*/
+
+/*
+        CORES
+
+body {
+  background: url('../imagens/pattern.png') center top no-repeat;
+}
+
+section {
+  background: #ffffff;
+}
+
+
+p {
+  color: blue;
+  color: #034589;
+}
+
+
+header, 
+footer {
+  background-color: #034589;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+}
+
+.navegacao {
+  background-color: rgba(0, 0, 0, .5);
+  padding: .5rem;
+}
+
+.navegacao li a {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+  background-color: rgba(150, 150, 200, .5);
+  color: #333333;
+}
+
+*/
+

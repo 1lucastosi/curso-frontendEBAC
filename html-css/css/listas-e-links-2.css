@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@600&family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background: linear-gradient(45deg, #320995, #d32082);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+h1,h2 {
+    color: white;
+    padding: 20px;
+}

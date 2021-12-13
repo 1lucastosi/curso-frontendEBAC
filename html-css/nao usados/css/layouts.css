@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@600&family=Pacifico&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+h2,h3 {
+    color:#d32082;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #66F;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #d32082;
+    padding-bottom: 12px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    padding-top: 20px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@600&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+	padding: 0;
+}
+
+div {
+    margin: 40px auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+header h2 {
+    color:#d32082;
+    text-align: left;
+    font-size: 3rem;
+    width: 30%;
+    padding: 2rem;
+}
+
+h3 {
+    color:#d32082;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a:hover {
+    color: #66F;
+}
+
+nav h3{
+    /*border-bottom: 1px solid #d32082;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li {
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navegacao {
+	background-color: #ffffff;
+}
+
+nav img {
+    margin-top: 2rem;
+    width: 400px;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    padding: 2rem;
+}
+  
+nav p {
+    margin-top: 10rem;
+    color:#d32082;
+    font-family: Arial, Helvetica, serif;
+    font-size: 2rem;
+}
+
+  
+article {
+    float: left;
+    padding: 2rem;
+    width: 70%;
+}
+
+article h4 {
+    padding-bottom: 1rem;
+    font-weight: 100;
+    color: #a31f67;
+}
+  
+article h2 {
+    font-size: 1.5rem;
+    color: #d32082;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+article p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    background: #ccc;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  footer p {
+      font-size: 1rem;
+      color:#d32082;
+  }
+
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  nav ul li {
+    margin-bottom: 2rem;
+    color: #d32082;
+    border-bottom: 1px solid #a31f67;
+  }

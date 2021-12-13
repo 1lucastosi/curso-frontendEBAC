@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@600&family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding-left: 20px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #d32082;
+    text-align: left;
+    padding-top: 20px;
+}
+
+#lista-nao-ordenada {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    color: #66F;
+}
+
+h2 {
+    color: #d32082;
+    padding-top: 2rem;
+    border-bottom: 1px solid #a31f67;
+    
+}
+
+li {
+    padding-top: 10px;
+    list-style-type: none;
+}
