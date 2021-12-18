@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #bf37ad, #d1241e);
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+header {
+    padding-top: 1rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+header ul {
+    color: white;
+    font-size: 1.2rem;
+}
+
+header h1 {
+    padding-bottom: 10px;
+}
+
+#nomes-header a{
+    color: white;
+}
+
+#nomes-header a:hover{
+    color: #86426c;
+}
+
+#nome,#email,#mensagem {
+    margin-bottom: 1rem;
+}
+
+#cadastro .container #cep,#cidade,#estado {
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+#cadastro .container textarea {
+    margin-top: 1rem;
+    background-color: transparent;
+}
+
+#cadastro .container input{
+    background-color: transparent;
+}
+
+#cadastro .container input::placeholder {
+    color: white;
+}
+
+#cadastro .container textarea::placeholder {
+    color: white;
+}
+
+#cadastro .container select {
+    color: white;
+    background-color: transparent;
+}
+
+#cadastro .container select option {
+    color: black;
+    background-color: transparent;
+}
+
+#cadastro [type=submit] {
+    margin-top: 1.5rem;
+    background-color: #f67bc6;
+    border: 0;
+}
+
+#cadastro [type=submit]:hover {
+    background-color: #b85c94;
+    transition: .5s;
+}
+
+#cadastro {
+    height: 100vh;
+}
+
+#bairro,#complemento[type=text]{
+    margin-top: 1rem;
+}

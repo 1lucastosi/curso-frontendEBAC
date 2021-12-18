@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section {
+    padding: 3rem 0;
+}
+
+header {
+    padding-top: 1rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: linear-gradient(45deg, #bf37ad, #d1241e);
+    background-repeat: no-repeat;
+}
+
+
+#nome,#email,#mensagem {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.card .card-text {
+    color: white;
+}
+
+#contato form [type=text],#mensagem {
+    background-color: transparent;
+}
+
+#contato form [type=text]::placeholder {
+    color: white;
+    opacity: 30%;
+}
+
+#contato form textarea::placeholder {
+    color: white;
+    opacity: 30%;
+}
+
+#contato button {
+    background-color: #f67bc6;
+    border: 0;
+} 
+#contato button:hover {
+    background-color: #b85c94;
+    transition: .5s;
+} 
+
+.card a {
+    position: relative;
+    bottom: -1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header ul {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#sobre img {
+    border-radius: 50px;
+}
+
+#sobre p {
+    padding-top: 8rem;
+    font-size: 1.2rem;
+}
+
+header h1 {
+    padding-bottom: 10px;
+}
+
+#produtos .card {
+    background: linear-gradient(45deg, #bf37ad, #d1241e);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#produtos .card img {
+    border-radius: 10px 10px 0 0 ;
+}
+
+#produtos .card a {
+    background-color: #f67bc6;
+    border: 0;
+}
+
+#produtos .card a:hover {
+    background-color: #b85c94;
+    transition: .5s;
+}
+
+#nomes-header a{
+    color: white;
+}
+
+#nomes-header a:hover{
+    color: #86426c;
+}
